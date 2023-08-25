@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  padding-top: 4rem;
+  padding-top: 1rem;
   min-height: 100vh;
 }
 
@@ -82,6 +82,7 @@
 }
 
 .center::before {
+  z-index: -1;
   background: var(--secondary-glow);
   border-radius: 50%;
   width: 480px;
@@ -254,13 +255,17 @@
 .mt_1 {
   margin-top: 1rem;
 }
-
+.mainnav {
+  z-index: 100;
+  margin-bottom: 1rem;
+}
 .mainnav ul{
   display: flex;
   justify-content: center;
   margin-top: 1.5rem;
 }
 .mainnav ul li{
+  z-index: 103;
   list-style: none;
   margin: 1rem;
   font-size: large;

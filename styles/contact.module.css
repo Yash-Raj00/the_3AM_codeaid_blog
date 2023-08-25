@@ -1,0 +1,34 @@
+.container {
+    max-width: 40vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+.container h1 {
+    text-align: center;
+    margin: 1rem 0rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container form div {
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.mb3 {
+    margin-bottom: 1.5rem;
+}
+
+.formLabel {
+    margin: .5rem 0rem;
+}
+.formText {
+    color: rgba(33, 96, 151, 0.853);
+    margin-top: .2rem;
+}
+.textArea {
+    margin: .5rem 0rem;
+    min-height: 8vh;
+}
+.btn {
+    padding: .2rem 1rem;
+    font-weight: bold;
+}

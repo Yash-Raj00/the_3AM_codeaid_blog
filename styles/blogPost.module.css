@@ -1,0 +1,15 @@
+.title {
+    margin: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 4rem;
+  }
+.para {
+  padding: 3rem;
+  margin: 3rem;
+  font-size: large;
+}
+.blogContainer {
+  padding: 2rem 5rem;
+  line-height: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
