@@ -41,12 +41,12 @@ export default function Home() {
         </div> */}
 
         <div className={`${styles.hero} ${styles.center}`}>
-          <h1 className={styles.title}>Hunting Coder</h1>
+          <h1 className={styles.title}>&lt;HuntingCoder/&gt;</h1>
           <p className={`${styles.description}`}>
             A blog for hunting coders by a hunting coder
           </p>
         </div>
-          <Image className={styles.myImg} src={"/coder.jpg"} width={250} height={150}/>
+          <Image alt="image" className={styles.myImg} src={"/coder.jpg"} width={250} height={150}/>
 
         <div className={`${styles.blogSection}`}>
           <h2>Popular Blogs:</h2>
